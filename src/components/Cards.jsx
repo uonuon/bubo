@@ -90,8 +90,8 @@ const cards = [
   {
     title: "Join bubo.gg",
     description:
-      "bubo.gg is currently exclusive to Solana bubo Business owners.",
-    buttonText: "Join us",
+      "We welcome you to bubo family through our discord where we discuss future plans and our vision",
+    buttonText: "Join Discord",
     bg: "#000000",
     buttonColor: "#FAC300",
     buttonUrl: "https://discord.gg/RBSqMq7W",
@@ -100,9 +100,9 @@ const cards = [
   },
   {
     title: "Don't have a bubo?",
-    description:
-      "Mint your first bubo now.",
-    buttonText: "Visit",
+    description: "Mint your first level 1 bubo now. for 10 STX",
+    minted: "10000/10000",
+    buttonText: "Mint",
     buttonAlt: "SMB bubo Market Logo",
     bg: "#7E3EB0",
     buttonColor: "white",
@@ -131,6 +131,11 @@ function GridItem({ classes, data, bg }) {
             <Typography className={classes.cardText}>
               {data.description}
             </Typography>
+            {data.minted && (
+              <Typography className={classes.cardText}>
+                 <strong>{data.minted}</strong> Bubo minted
+              </Typography>
+            )}
           </Grid>
           <Grid item className={classes.cardButtons}>
             <Button

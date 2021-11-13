@@ -48,7 +48,7 @@ const App = () => {
             className={classes.heroTitle}
             gutterBottom
           >
-            Welcome to bubo, The first craftable NFTs game on Stacks.
+          Help Save Bubo City
           </Typography>
           <Typography
             variant="h6"
@@ -57,9 +57,7 @@ const App = () => {
             component="p"
             gutterBottom
           >
-            We are building a game about combining, crafting, and owning pet
-            bubos Each bubo has its unique features and power level. It cannot
-            be replicated, taken away, or destroyed.
+          Do you have what it takes to ace the ghastly missions that awaits you? In Bubo city, the first craftable NFTs game on stacks, you will claw your way through the unknown, fight frightful enemies, and save the city with the help of CUTE Bubo citizens.
           </Typography>
           <Typography
             variant="h6"
@@ -67,7 +65,7 @@ const App = () => {
             className={classes.heroContent}
             component="p"
           >
-            We welcome you to the bubo family!
+          Your heroic journey starts now!
           </Typography>
         </Container>
 

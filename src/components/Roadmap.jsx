@@ -140,8 +140,8 @@ export default function Roadmap(props) {
     {
       emoji: "🤝",
       emojiAria: "handshake",
-      title: "Learn the city’s story",
-      body: "Long ago, Bubo, the oldest city in existence, became the heart of cute magic. Bubos citizens wandered through the lands, east and west to share their cuteness",
+      title: "Level 1: Find Your Warriors",
+      body: "You will help the city’s maven to mint potential warriors out of 10,000 Bubos, available at 10 STX. Each Bubo has distinctive features and stamina that can’t be replicated nor destroyed.",
       isActive: true,
     },
     {
